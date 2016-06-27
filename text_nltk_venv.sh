@@ -7,8 +7,8 @@ tar -xzf nltk_data.tar.gz
 # Load python 2.7 (should be the same version used to create the virtual environment)
 module load python/2.7
 
-# Create the virtual environment
-virtualenv nltk_env
+# Create the virtual environment on the remote hosts (redefines the env variables)
+virtualenv-2.7 nltk_env
 
 # Activate virtual environment
 source nltk_env/bin/activate
@@ -16,7 +16,7 @@ source nltk_env/bin/activate
 # Run the python script 
 python simple_text_analysis.py > simple_text_analysis.out
 
-# Deactivate virtual environment
+# Deactivate virtual environment 
 deactivate
 
 # Clean up the data on the remote machine 

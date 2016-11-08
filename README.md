@@ -3,7 +3,7 @@
 
 ## Overview
 
-In this tutorial, we learn (1) how to create a Python virtualenv and (2) how to utilize the virtualenv in running a python calculation on the OSG. As an example, we create a virtual environment that holds  NLTK (Natural Language Tool Kit) library and  see how to run an NLTK analysis on a remote worker machine. 
+In this tutorial, we learn how to create and use Python virtualenv on the OSG. As an example, we create a virtual environment that holds  NLTK (Natural Language Tool Kit) library and  then run an NLTK analysis using the virtualenv. 
 
 
 ## Tutorial files
